@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home...</title>
+    <link rel="stylesheet" href="webpageStyle.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Welcome to my webpage</h1>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+        <section id="home">
+            <h2>HTML</h2>
+            <p>HTML is the standard markup language for creating Web pages.</p>
+            <img src="https://image.shutterstock.com/image-photo/html-inscription-against-laptop-code-260nw-1851522412.jpg" alt="Placeholder Image">
+        </section>
+
+        <section id="about">
+            <h2>WHAT IS HTML?</h2>
+            <ul>
+                <li>HTML stands for Hyper Text Markup Language</li>
+                <li>HTML is the standard markup language for creating Web pages</li>
+                <li>HTML describes the structure of a Web page</li>
+               <li> HTML consists of a series of elements</li>
+<li>HTML elements tell the browser how to display the content</li>
+            </ul>
+        </section>
+        <section>
+			<h1>What is CSS and why it is used?</h1>
+<p>CSS stands for cascading style sheets. 
+In short, CSS is a design language that makes 
+a website look more appealing than just plain or 
+uninspiring pieces of text. Whereas HTML largely 
+determines textual content, CSS determines visual 
+structure, layout, and aesthetics.</p>
+</section>
+
+     
+   <section id="form1">
+  <h1>Registration Form</h1>
+  
+  <form id="myForm" >
+	  <fieldset>
+		  
+    <label for="name">Name:</label>
+    <input type="text" id="name" required>
+    <div class="error-message" id="nameError"></div>
+
+    <label for="email">Email:</label>
+    <input type="text" id="email" required>
+    <div class="error-message" id="emailError"></div>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" required>
+    <div class="error-message" id="passwordError"></div>
+
+    <label>Gender:</label>
+    <input type="radio" name="gender" value="male" required>Male
+    <input type="radio" name="gender" value="female" required>Female
+    <div class="error-message" id="genderError"></div>
+
+    <label for="country">Country:</label>
+    <select id="country" required>
+      <option value="" disabled selected>Select a country</option>
+      <option value="usa">USA</option>
+      <option value="canada">Canada</option>
+      <option value="uk">UK</option>
+    </select>
+    <div class="error-message" id="countryError"></div>
+
+    <label>
+      <input type="checkbox" id="agree" required>
+      I agree to the terms and conditions
+    </label>
+    <div class="error-message" id="agreeError"></div>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="reset">
+  
+    </fieldset>
+    
+  </form>
+  </section>
+  </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Thank you for visiting...</p>
+    </footer>
+</body>
+
+</html>
